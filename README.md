@@ -10,6 +10,9 @@
     $ pip install -r requirements.txt    # Install all the dependencies
     
 # How To Run Project
+
+1. Edit file `nodes.txt` to specific node that want to start
+
 ## Linux
 
 1. Using Terminal
@@ -39,7 +42,6 @@
     $ start_node_2.bat                  # To start node 2
     $ start_node_3.bat                  # To start node 3
     $ start_node_4.bat                  # To start node 4
-    
 
-    
-    
+## Try RAFT
+Open from your browser after run web server for the client: `localhost:5555`
