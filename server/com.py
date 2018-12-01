@@ -16,7 +16,7 @@ sys.path.append("..")
 from raft import Node
 #import common
 #from .. import common
-from common import read_nodes, setup_logging, MessageTypes
+from common import read_nodes, setup_logging, MessageTypes, get_address_tuple
 
 
 def verify_arguments(amount):
